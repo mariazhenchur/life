@@ -1,0 +1,336 @@
+@font-face {
+    font-family: NameFont;
+    src: url(Whatnot\ W00\ Regular.ttf);
+}
+
+@font-face {
+    font-family: DiaryFont;
+    src: url(Dudu_Calligraphy.ttf);
+}
+
+.title {
+    /* font-family: 'NameFont, sans-serif'; */
+    height: 200px;
+    width: 700px;
+    margin-left: 400px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.global-container {
+    max-width: 1400px;
+    margin: auto;
+}
+
+body {
+    background-color: rgb(139, 134, 131);
+    /* background-image: url(background.jpg); */
+    /* background-size: cover; */
+    margin: 0;
+    font-family: 'DiaryFont', sans-serif;
+    font-size: 20px;
+    /* box-sizing: border-box; */
+}
+
+/* * {
+    margin: 0px;
+    box-sizing: border-box;
+} */
+
+.container-nav {
+    background-color: rgb(139, 134, 131);
+}
+
+
+
+
+
+.character {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+/* .text-container {
+    flex: 1;
+    background-color: rgba(197, 179, 179, 0.8); 
+    padding: 20px; 
+    z-index: 1;
+}
+
+.text-container2 {
+    flex: 1;
+    background-color: rgba(229, 186, 133, 0.8);
+    padding: 20px; 
+    z-index: 1;
+}
+
+.character p {
+    margin-bottom: 10px;
+}
+
+.first-line {
+    font-weight: bold;
+} */
+
+.character-icon {
+    width: 40%;
+    height: 40%;
+    /* max-width: 100%; */
+    margin-right: 20px;
+}
+
+.character-icon2 {
+    width: 800px;
+    height: 580px;
+    /* height: 40%; */
+    /* max-width: 100%; */
+    margin-right: 20px;
+}
+
+/* .back {
+    background-image: url('Camera_icon1.png');
+} */
+
+.back-icon {
+    height: 180px;
+    width: 180px;
+    margin-left: 300px;
+    /* z-index: 4; */
+}
+
+.max {
+    /* background-image: url('Camera_icon1.png');  */
+    background-size: cover;
+    margin-bottom: 70px;
+    margin-top: 70px;
+}
+
+.chloe {
+    /* background-image: url('backg.webp');  */
+    background-size: cover;
+}
+
+.header {
+    background-image: url('header4.webp');
+    background-size: cover;
+    height: 659px;
+    /* width: 1400px;  */
+    /* height: 400px; */
+    max-width: 1600px;
+}
+
+.first-line {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+
+
+.carousel__icecream_species {
+    padding: 60px 24px;
+    text-align: center;
+    /* display: flex; */
+    /* flex-direction: column; */
+    align-items: center;
+}
+
+.carousel__icecream_name {
+    font-family: 'NameFont', cursive;
+    font-size: 14px;
+}
+
+.carousel__icecream_title {
+    font-family: 'NameFont';
+    font-size: 34px;
+    color: var(--text-color);
+    margin-top: 20px;
+}
+
+.carousel__icecream_description {
+    font-family: 'NameFont';
+    color: var(--text-color-alternative);
+    font-size: 20px;
+    margin-top: 25px;
+}
+
+.carousel__menu_species {
+    min-height: 400px;
+    display: grid;
+    grid-template-columns: 40px 1fr 40px;
+    align-items: center;
+    /* align-items: center; */
+}
+
+.carousel__icecream_alignment_conteiner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 45px 0px;
+}
+
+.carousel__icecream_alignment {
+    background-color: rgb(118, 114, 114);
+    border-radius: 5px;
+    padding: 25px;
+    margin: 5px;
+    min-width: 263px;
+    min-height: 363px;
+    /* display: flex; */
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-between;
+}
+
+.carousel__icecream_alignment img {
+    width: 203px;
+}
+
+.alignment__title {
+    font-family: 'NameFont';
+    font-weight: bold;
+}
+
+.alignment__description {
+    font-family: 'Source Sans 3';
+    color: var(--text-color-alternative);
+    font-style: italic;
+}
+
+.alignment_price span {
+    color: var(--price-color);
+}
+
+.carousel__button_icecream_alignment--left,
+.carousel__button_icecream_alignment--right,
+.button__alignment_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 35px;
+    border: none;
+}
+
+.carousel__button_icecream_alignment--left,
+.carousel__button_icecream_alignment--right {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 60px;
+    height: 60px;
+    color: var(--text-color);
+    font-size: 50px;
+    z-index: 1;
+}
+
+.button__alignment_button {
+    background-color: var(--price-color);
+    width: 154px;
+    height: 59px;
+    color: var(--text-color);
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 16.5px;
+    border-radius: 35px;
+    margin-bottom: 24px;
+}
+
+.carousel__button_icecream_alignment--right {
+    margin: auto auto auto -16px;
+}
+
+.carousel__button_icecream_alignment--left {
+    margin: auto -16px auto auto;
+}
+
+@media (min-width: 992px) {
+    .carousel__icecream_name {
+        font-size: 21px;
+    }
+
+    .carousel__icecream_title {
+        font-size: 48px;
+    }
+
+    .carousel__icecream_description {
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 1198px) {
+
+    .carousel__button_icecream_alignment--left,
+    .carousel__button_icecream_alignment--right {
+        background-color: inherit;
+        width: 30px;
+        height: 30px;
+        margin: auto;
+    }
+}
+
+
+.rachel-poster img {
+    width: 200px;
+    height: 300px;
+    margin-left: 8px;
+}
+
+.titlename {
+    font-family: 'NameFont';
+    font-size: 48px;
+    /* color: var(--text-color); */
+    margin-top: 60px;
+    /* font-weight: bold; */
+    text-align: center;
+    margin-bottom: 70px;
+    margin-top: 90px;
+}
+
+.gallery img {
+    height: 400px;
+    width: 640px;
+    border: solid rgb(109, 105, 105) 10px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.until {
+    font-family: 'NameFont';
+    font-size: 90px;
+    /* color: var(--text-color); */
+    margin-top: 60px;
+    /* font-weight: bold; */
+    text-align: center;
+    margin-bottom: 300px;
+    margin-top: 300px;
+}
+
+
+/* .scroll-control {
+    position: fixed;
+    right: 20px;
+    top: 50%;
+    transform: translateX(-50%);
+    z-index: 999;
+}
+.scroll-control span {
+    cursor: pointer;
+    display: block;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    margin: 10px 0;
+    background-color: #000;
+    opacity: 0.7;
+}
+.scroll-control span:hover {
+    opacity: 1;
+} */
