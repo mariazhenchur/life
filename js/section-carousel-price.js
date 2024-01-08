@@ -134,7 +134,7 @@ David.addEventListener('click', function(){
 });
 
 Nathan.addEventListener('click', function(){
-    alert("WRONG!!! Still piece of shit but mentaally ill so it's okay I guess");
+    alert("WRONG!!! Still piece of shit but mentally ill so it's okay I guess");
 });
 
 
