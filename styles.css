@@ -34,6 +34,7 @@ body {
     font-family: 'DiaryFont', sans-serif;
     font-size: 20px;
     /* box-sizing: border-box; */
+    color: #401c24;
 }
 
 /* * {
@@ -128,6 +129,7 @@ body {
     font-size: 30px;
     font-weight: bold;
     text-align: center;
+    color: #5c2627;
 }
 
 
@@ -344,7 +346,7 @@ body {
         /* margin-top: 350px; */
         padding-top:  300px;
         /* background-color: black; */
-        color: red;
+        color: rgb(144, 21, 21);
 }
 
 /* .room img {
