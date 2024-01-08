@@ -2,7 +2,7 @@ const buttonIcecreamAlignmentLeft = document.querySelector(".carousel__button_ic
 const buttonIcecreamAlignmentRight = document.querySelector(".carousel__button_icecream_alignment--right");
 
 const icecreamAlignmentSlides = [
-    '<div class="carousel__icecream_alignment"><img class="alignment__image" src="img/jefferson.webp" alt="Jefferson"><h3 class="alignment__title">Mark Jefferson</h3><p class="alignment__description"> </p> <p class="alignment_price"> <span> A photographer and teacher at Blackwell Academy.</p></div>',
+    '<div class="carousel__icecream_alignment"><img class="alignment__image" src="img/Jefferson.webp" alt="Jefferson"><h3 class="alignment__title">Mark Jefferson</h3><p class="alignment__description"> </p> <p class="alignment_price"> <span> A photographer and teacher at Blackwell Academy.</p></div>',
     '<div class="carousel__icecream_alignment"><img class="alignment__image" src="img/David.webp" alt="David"><h3 class="alignment__title">David Madsen</h3><p class="alignment__description"></p> <p class="alignment_price"> <span>Head of security at Blackwell Academy and is also Chloe Price`s step-dad. </p></div>',
     '<div class="carousel__icecream_alignment"><img class="alignment__image" src="img/Joyce.webp" alt="Joyce"><h3 class="alignment__title">Joyce Price</h3><p class="alignment__description"></p> <p class="alignment_price"> <span>A waitress at the Two Whales Diner in Arcadia Bay, Chloe`s mother. </p></div>',
     '<div class="carousel__icecream_alignment"><img class="alignment__image" src="img/Frank.webp" alt="Frank"><h3 class="alignment__title">Frank Bowers</h3><p class="alignment__description"></p> <p class="alignment_price"> <span>A drug dealer in Arcadia Bay that lives in a trailer. </p></div>',
@@ -114,3 +114,15 @@ window.addEventListener('resize', icecreamAlignmenRenderSlide);
 //         $.scrollify.enable();
 //     }
 // }
+
+
+const Victoria = document.querySelector(".Victoria");
+const Jefferson = document.querySelector(".Jefferson");
+const David = document.querySelector(".David");
+const Nathan = document.querySelector(".Nathan");
+
+Victoria.addEventListener('click', function(){
+    alert('WRONG!!!');
+});
+
+
