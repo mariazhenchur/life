@@ -122,7 +122,21 @@ const David = document.querySelector(".David");
 const Nathan = document.querySelector(".Nathan");
 
 Victoria.addEventListener('click', function(){
-    alert('WRONG!!!');
+    alert("WRONG!!! She is actually nice when you don't piss her off");
 });
+
+Jefferson.addEventListener('click', function(){
+    alert('SUCH A FUCKING DICK OH MY GOD I WANT TO SHOVE THAT CAMERA DOWN HIS THROAT');
+});
+
+David.addEventListener('click', function(){
+    alert("WRONG!!! Saved Max's ass and is a good man");
+});
+
+Nathan.addEventListener('click', function(){
+    alert("WRONG!!! Still piece of shit but mentaally ill so it's okay I guess");
+});
+
+
 
 
