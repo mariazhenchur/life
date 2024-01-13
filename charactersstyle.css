@@ -1,0 +1,26 @@
+@font-face {
+    font-family: NameFont;
+    src: url(Whatnot\ W00\ Regular.ttf);
+}
+
+@font-face {
+    font-family: DiaryFont;
+    src: url(Dudu_Calligraphy.ttf);
+}
+
+.profilePic {
+    height: 300px;
+}
+
+.profileCard {
+    display: flex;
+    gap: 30px;
+}
+
+.profileName {
+    font-family: 'NameFont', cursive;
+}
+
+.characters {
+    font-family: 'DiaryFont', sans-serif;
+}
